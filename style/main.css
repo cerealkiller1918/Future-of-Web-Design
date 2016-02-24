@@ -1,0 +1,15 @@
+
+
+body{
+	background-color: #b385d9;
+}
+
+.collapsible-header{
+    background-color: #953FDB;
+    text-align: center;
+    color: #fff;
+}
+
+.collapsible-body{
+    background-color: #fff;
+}
