@@ -8,21 +8,34 @@ body{
   background-color: #b385d9;
 }
 
+.page-header{
+  background-color: #953FDB;
+}
 .title{
   font-family: 'Oswald', sans-serif;
   text-align: center;
   font-weight: 700;
+  padding: 0;
+  padding-top: 0.25em;
+  margin: 0;
 }
 
 .subtitle{
+  padding: 0;
+  margin: 0;
+  padding-top: 0.75%;
   font-family: 'Lora', serif;
   font-weight: 400;
   font-size: 1.5em;
+  
 }
 
-p.byline{
- font-family: 'Montserrat', sans-serif;
- font-size: 0.9em;
+.byline{
+  margin: 0;
+  padding: 0;
+  padding-top: 1%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.9em;
 }
 
 
@@ -34,10 +47,15 @@ p.byline{
   color: #fff;
 }
 
+/* Inside the body of the colapsible content */
 .collapsible-body{
   background-color: #fff;
 }
 
+/* Makes sure the footer is at the bottom of the page */
 footer.page-footer{
+  position: absolute;
+  width: 100%;
+  bottom: 0;
   background-color: #953FDB; 
 }
