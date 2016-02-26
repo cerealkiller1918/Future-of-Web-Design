@@ -1,16 +1,43 @@
 @import url(materialize.min.css);
 @import url(http://fonts.googleapis.com/icon?family=Material+Icons);
+@import url(https://fonts.googleapis.com/css?family=Lora);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
 
 body{
-	background-color: #b385d9;
+  background-color: #b385d9;
 }
 
+.title{
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  font-weight: 700;
+}
+
+.subtitle{
+  font-family: 'Lora', serif;
+  font-weight: 400;
+  font-size: 1.5em;
+}
+
+p.byline{
+ font-family: 'Montserrat', sans-serif;
+ font-size: 0.9em;
+}
+
+
 .collapsible-header{
-    background-color: #953FDB;
-    text-align: center;
-    color: #fff;
+  font-family: 'Lora', serif;
+  font-weight: 400;
+  background-color: #953FDB;
+  text-align: center;
+  color: #fff;
 }
 
 .collapsible-body{
-    background-color: #fff;
+  background-color: #fff;
+}
+
+footer.page-footer{
+  background-color: #953FDB; 
 }
