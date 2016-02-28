@@ -1,18 +1,20 @@
-@import url(materialize.min.css);
-@import url(http://fonts.googleapis.com/icon?family=Material+Icons);
-@import url(https://fonts.googleapis.com/css?family=Lora);
-@import url(https://fonts.googleapis.com/css?family=Oswald);
-@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
 
 body{
   background-color: #b385d9;
 }
 
-.page-header{
-  background-color: #953FDB;
+/* Makes sure the footer is at the bottom of the page */
+footer.page-footer{
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 50px;
+  background-color: #953FDB; 
 }
+
 .title{
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Abril Fatface', cursive;
   text-align: center;
   font-weight: 700;
   padding: 0;
@@ -24,23 +26,22 @@ body{
   padding: 0;
   margin: 0;
   padding-top: 0.75%;
-  font-family: 'Lora', serif;
+  font-family: 'Abril Fatface', cursive;
   font-weight: 400;
   font-size: 1.5em;
-  
 }
 
 .byline{
   margin: 0;
   padding: 0;
   padding-top: 1%;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Abril Fatface', cursive;
   font-size: 0.9em;
 }
 
 
 .collapsible-header{
-  font-family: 'Lora', serif;
+  font-family: 'Abril Fatface', cursive;
   font-weight: 400;
   background-color: #953FDB;
   text-align: center;
@@ -50,12 +51,6 @@ body{
 /* Inside the body of the colapsible content */
 .collapsible-body{
   background-color: #fff;
+  font-family: 'Sanchez', serif;
 }
 
-/* Makes sure the footer is at the bottom of the page */
-footer.page-footer{
-  position: absolute;
-  width: 100%;
-  bottom: 0;
-  background-color: #953FDB; 
-}
