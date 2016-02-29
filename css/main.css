@@ -6,12 +6,12 @@ body{
 
 /* Makes sure the footer is at the bottom of the page */
 footer.page-footer{
-  position: absolute;
+  position: fixed;
   width: 100%;
-  bottom: 0;
-  height: 50px;
+  bottom: 0; 
   background-color: #953FDB; 
 }
+
 
 .title{
   font-family: 'Abril Fatface', cursive;
@@ -28,24 +28,25 @@ footer.page-footer{
   padding-top: 0.75%;
   font-family: 'Abril Fatface', cursive;
   font-weight: 400;
-  font-size: 1.5em;
+  font-size: 175%;
 }
 
 .byline{
   margin: 0;
   padding: 0;
   padding-top: 1%;
-  font-family: 'Abril Fatface', cursive;
-  font-size: 0.9em;
+  font-family: 'Sanchez', serif;
+  font-size: 125%;
 }
 
 
 .collapsible-header{
   font-family: 'Abril Fatface', cursive;
   font-weight: 400;
-  background-color: #953FDB;
+  background-color: #ff5858;
   text-align: center;
   color: #fff;
+  font-size: 200%;
 }
 
 /* Inside the body of the colapsible content */
@@ -53,4 +54,51 @@ footer.page-footer{
   background-color: #fff;
   font-family: 'Sanchez', serif;
 }
+
+.footer-container{
+   padding-left: 10px;
+   padding-right: 10px;
+   
+  
+}
+
+.facebook-pic{
+  width: 40px;
+}
+
+.twitter-pic{
+  width: 40px;
+}
+
+.linkendin-pic{
+  width: 40 px;
+  
+}
+
+.profile-pic{
+  width: 80px;
+  height: 80px;
+  padding: 0;
+  margin: 0;
+  
+}
+
+.header{
+  text-align: center;
+}
+
+profile-container{
+  padding: 0;
+  margin: 0;
+  
+}
+
+#xentientLABS-title{
+  
+  
+}
+
+
+
+
 
