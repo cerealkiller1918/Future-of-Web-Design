@@ -2,6 +2,7 @@
 
 body{
   background-color: #b385d9;
+  color: #000;
 }
 
 /* Makes sure the footer is at the bottom of the page */
@@ -11,11 +12,11 @@ footer.page-footer{
   width: 100%;
   bottom: 0px;
   background-color: #953FDB;
+  color: #000;
   overflow: hidden; 
   margin-bottom: 0;
   padding-bottom: 0;
 }
-
 
 .title{
   font-family: 'Abril Fatface', cursive;
@@ -56,33 +57,24 @@ footer.page-footer{
 /* Inside the body of the colapsible content */
 .collapsible-body{
   background-color: #fff;
+  color: #000;
   font-family: 'Sanchez', serif;
 }
 
 .footer-container{
    padding-left: 8%;
-   padding-right: 8%;
-   
-  
+   padding-right: 8%; 
 }
 
-.facebook-pic{
+.logos{
   width: 40px;
    margin-bottom: 0;
   padding-bottom: 0;
 }
 
-.twitter-pic{
-  width: 40px;
-  margin-bottom: 0;
-  padding-bottom: 0;
-}
-
 .linkendin-pic{
   padding-top: 5px;
-  width: 40px;
-  
-  
+  width: 40px;  
 }
 
 .profile-pic{
@@ -98,6 +90,14 @@ footer.page-footer{
 .profile-container{
   padding: 0;
   margin: 0;  
+}
+
+.backlight{
+  text-shadow: 2px 2px 10px #fff, -2px -2px 10px white;
+}
+
+.recess{
+  text-shadow: 0px 1px 0px rgba(255,255,255,.3), 0px -1px 0px rgba(0,0,0,.7);
 }
 
 #xentientLABS-logo{
