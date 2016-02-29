@@ -6,10 +6,14 @@ body{
 
 /* Makes sure the footer is at the bottom of the page */
 footer.page-footer{
-  position: fixed;
+  clear: both;
+  position: static;
   width: 100%;
-  bottom: 0; 
-  background-color: #953FDB; 
+  bottom: 0px;
+  background-color: #953FDB;
+  overflow: hidden; 
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 
@@ -56,48 +60,54 @@ footer.page-footer{
 }
 
 .footer-container{
-   padding-left: 10px;
-   padding-right: 10px;
+   padding-left: 8%;
+   padding-right: 8%;
    
   
 }
 
 .facebook-pic{
   width: 40px;
+   margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .twitter-pic{
   width: 40px;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .linkendin-pic{
-  width: 40 px;
+  padding-top: 5px;
+  width: 40px;
+  
   
 }
 
 .profile-pic{
   width: 80px;
   height: 80px;
-  padding: 0;
-  margin: 0;
-  
+  padding-top:10px;
 }
 
 .header{
   text-align: center;
 }
 
-profile-container{
+.profile-container{
+  padding: 0;
+  margin: 0;  
+}
+
+#xentientLABS-logo{
+  padding:0;
+  margin: 0;
+}
+#xentientLABS-address{
   padding: 0;
   margin: 0;
-  
 }
-
-#xentientLABS-title{
-  
-  
-}
-
 
 
 
