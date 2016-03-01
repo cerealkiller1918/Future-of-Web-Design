@@ -113,7 +113,7 @@ footer a{
 
 /* logo Sprites */
 /* Setup to use div tags*/ 
-.Sprite { 
+.sprite { 
   background: url('../images/sprite/sprite.png') no-repeat top left; 
   width: 40px; 
   height: 40px;
