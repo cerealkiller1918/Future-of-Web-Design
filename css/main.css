@@ -121,7 +121,24 @@ footer a{
 .sprite.linkedin { background-position: 0 -50px; } 
 .sprite.twitter { background-position: 0 -100px; } 
 .sprite.xentientSmallLogo { background-position: 0 -150px; width: 200px; height: 60px; } 
+ 
 
+.profile-container img{
+  object-fit: none;
+  width: 80px;
+  height: 100px
+}
+.michelle{
+  object-position: 0px 0px;
+}
+
+.justin{
+  object-position: 1px -118px;
+}
+
+.lacy{
+  object-position: 0px 0px;
+}
 #xentientLABS-logo{
   padding:0;
   margin: 0;
