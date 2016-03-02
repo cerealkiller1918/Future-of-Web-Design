@@ -129,6 +129,7 @@ footer a{
 /*<div class='sprite xentientSmallLogo'></div> */
 .sprite.xentientSmallLogo { background-position: 0 -150px; width: 200px; height: 60px; } 
  
+ /* ---This does not support Microsoft browers ---*/
 /* The Sprites for the profile pictures file loction /images/sprite/profileSprite.png */
 /* Setup to use in img tag */
 .profile-container img{
@@ -147,6 +148,26 @@ footer a{
 /* <img class="lacy" src='images/sprite/profileSprite.png'> */
 .lacy{
   object-position: 0px -228px;
+}
+
+/* Add to let all bowers to work with */
+/* Use with div tags */
+.profile{
+   background: url('../images/sprite/profileSprite.png') no-repeat top left; 
+   width: 80px;
+   height: 100px
+}
+/* <div class='profile michelleSprite'></div> */
+profile.michelleSprite{
+  background-position: 0px 0px;
+}
+/* <div class='profile justinSprite'></div> */
+profile.justinSprite{
+  background-position: 0px -118px;
+}
+/* <div class='profile lacySprite'></div> */
+profile.lacySprite{
+  background-position: 0px -228px;
 }
 
 #xentientLABS-address{
