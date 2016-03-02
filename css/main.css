@@ -1,18 +1,28 @@
-@import url(materialize.min.css);
-@import url(http://fonts.googleapis.com/icon?family=Material+Icons);
-@import url(https://fonts.googleapis.com/css?family=Lora);
-@import url(https://fonts.googleapis.com/css?family=Oswald);
-@import url(https://fonts.googleapis.com/css?family=Montserrat);
-
+/* The backgorund color for the site and set the font color to black*/
 body{
   background-color: #b385d9;
+  color: #000;
 }
 
-.page-header{
+/* Makes sure the footer is at the bottom of the page */
+footer.page-footer{
+  clear: both;
+  position: static;
+  width: 100%;
+  bottom: 0px;
   background-color: #953FDB;
+  color: #000;
+  overflow: hidden; 
 }
+
+/* change the link color to same color for the accordion bars */
+footer a{
+  color: #ff5858;
+}
+
+/* setting the font and weight removing the padding and margin adding the padding to the top for spacing */
 .title{
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Abril Fatface', cursive;
   text-align: center;
   font-weight: 700;
   padding: 0;
@@ -20,42 +30,151 @@ body{
   margin: 0;
 }
 
+/* kept the same font as the title */
 .subtitle{
   padding: 0;
   margin: 0;
   padding-top: 0.75%;
-  font-family: 'Lora', serif;
+  font-family: 'Abril Fatface', cursive;
   font-weight: 400;
-  font-size: 1.5em;
-  
+  font-size: 175%;
 }
 
+/* Change the font to let it sand out */
 .byline{
   margin: 0;
   padding: 0;
   padding-top: 1%;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 0.9em;
+  font-family: 'Sanchez', serif;
+  font-size: 125%;
 }
 
 
+/* This is for the header of the accordion set he color to stand out from the page */
+/* Set the font same as the title to let the eyes more the there */
 .collapsible-header{
-  font-family: 'Lora', serif;
+  font-family: 'Abril Fatface', cursive;
   font-weight: 400;
-  background-color: #953FDB;
+  background-color: #ff5858;
   text-align: center;
   color: #fff;
+  font-size: 200%;
 }
 
-/* Inside the body of the colapsible content */
+
+/* Inside the body of the accordion content */
 .collapsible-body{
   background-color: #fff;
+  color: #000;
+  font-family: 'Sanchez', serif;
 }
 
-/* Makes sure the footer is at the bottom of the page */
-footer.page-footer{
-  position: absolute;
-  width: 100%;
-  bottom: 0;
-  background-color: #953FDB; 
+/* to add spacing for the footer content but not to much */
+.footer-container{
+   padding-left: 8%;
+   padding-right: 8%; 
 }
+
+/* to set all the logos to 40px square and added 5px padding around*/
+.logo{
+  width: 40px;
+  height: 40px;
+  margin-bottom: 0px;
+  padding-bottom: 5px;
+}
+
+/* To set the the profile pictures to 80px square and add 10px padding to the top for spacing */
+.profile-pic{
+  width: 80px;
+  height: 80px;
+  padding-top:10px;
+}
+
+/* Center the header to the footer */
+.header{
+  text-align: center;
+}
+
+/* The profile container removes all padding and margins */
+.profile-container{
+  padding: 0;
+  margin: 0;  
+}
+
+/* Set a white backlight behind the font */
+.backlight{
+  text-shadow: 2px 2px 10px #fff, -2px -2px 10px #fff;
+}
+
+/* Set the font recessed into the page */
+.recess{
+  text-shadow: 0px 1px 0px rgba(255,255,255,.3), 0px -1px 0px rgba(0,0,0,.7);
+}
+
+/* logo Sprites */
+/* Setup to use div tags*/ 
+.sprite { 
+  background: url('../images/sprite/sprite.png') no-repeat top left; 
+  width: 40px; 
+  height: 40px;
+  padding: 0px;
+  margin: 0px;
+  } 
+/* <div class='sprite facebook'></div> */
+.sprite.facebook{ background-position: 0 0; } 
+/* <div class="sprite linkedin"></div> */
+.sprite.linkedin { background-position: 0 -50px; } 
+/* <div class='sprite twitter'></div> */
+.sprite.twitter { background-position: 0 -100px; } 
+/*<div class='sprite xentientSmallLogo'></div> */
+.sprite.xentientSmallLogo { background-position: 0 -150px; width: 200px; height: 60px; } 
+ 
+ /* ---This does not support Microsoft browers ---*/
+/* The Sprites for the profile pictures file loction /images/sprite/profileSprite.png */
+/* Setup to use in img tag */
+.profile-container img{
+  object-fit: none;
+  width: 80px;
+  height: 100px
+}
+/* <img class="michelle" src='images/sprite/profileSprite.png'> */ 
+.michelle{
+  object-position: 0px 0px;
+}
+/* <img class="justin" src='images/sprite/profileSprite.png'> */
+.justin{
+  object-position: 1px -118px;
+}
+/* <img class="lacy" src='images/sprite/profileSprite.png'> */
+.lacy{
+  object-position: 0px -228px;
+}
+
+/* Add to let all bowers to work with */
+/* Use with div tags */
+.profile{
+   background: url('../images/sprite/profileSprite.png') no-repeat top left; 
+   width: 80px;
+   height: 100px
+}
+/* <div class='profile michelleSprite'></div> */
+profile.michelleSprite{
+  background-position: 0px 0px;
+}
+/* <div class='profile justinSprite'></div> */
+profile.justinSprite{
+  background-position: 0px -118px;
+}
+/* <div class='profile lacySprite'></div> */
+profile.lacySprite{
+  background-position: 0px -228px;
+}
+
+#xentientLABS-address{
+  padding: 0;
+  margin: 0;
+}
+
+
+
+
