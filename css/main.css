@@ -134,18 +134,20 @@ footer a{
 .profile{
    background: url('../images/sprite/profileSprite.png') no-repeat top left; 
    width: 80px;
-   height: 100px
+   height: 100px;
+   margin: 0px;
+   padding: 0px;
 }
-/* <div class='profile michelleSprite'></div> */
-profile.michelleSprite{
+/* <div class='profile michelle'></div> */
+.profile.michelle{ 
   background-position: 0px 0px;
 }
-/* <div class='profile justinSprite'></div> */
-profile.justinSprite{
+/* <div class='profile justin'></div> */
+.profile.justin{
   background-position: 0px -118px;
 }
-/* <div class='profile lacySprite'></div> */
-profile.lacySprite{
+/* <div class='profile lacy'></div> */
+.profile.lacy{
   background-position: 0px -228px;
 }
 
