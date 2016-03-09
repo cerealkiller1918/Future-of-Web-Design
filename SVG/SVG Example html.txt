@@ -1,0 +1,38 @@
+This need to be added to the Html For the Examples I have 4 for them for now
+
+
+
+
+
+          <!-- Circle Example -->
+          <div class='pen' id='circle_ex'>
+            <div class='examples_title'>Circle Example</div>
+            <iframe height='250' scrolling='no' src='http://codepen.io/cerealkiller1918/embed/VaeLme/?height=250&theme-id=0&default-tab=result' 
+            frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/cerealkiller1918/pen/VaeLme/'>
+            Circle SVG</a> by Justin Frasier (<a href='http://codepen.io/cerealkiller1918'>@cerealkiller1918</a>) on <a href='http://codepen.io'>CodePen</a>.
+            </iframe>
+          </div>
+          <!-- Star Example -->
+          <div class='pin' id='star_ex'>
+            <div class='examples_title'>Star Example</div>
+            <iframe height='255' scrolling='no' src='http://codepen.io/cerealkiller1918/embed/JXXBOR/?height=250&theme-id=0&default-tab=result' 
+            frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/cerealkiller1918/pen/JXXBOR/'>
+            SVG Star</a> by Justin Frasier (<a href='http://codepen.io/cerealkiller1918'>@cerealkiller1918</a>) on <a href='http://codepen.io'>CodePen</a>.
+            </iframe>
+          </div>
+          <!-- Text Example -->
+          <div class='pin' id='text_ex'>
+            <div class='examples_title'>Text Example</div>
+            <iframe height='250' scrolling='no' src='http://codepen.io/cerealkiller1918/embed/oxxMRo/?height=250&theme-id=0&default-tab=result' 
+            frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/cerealkiller1918/pen/oxxMRo/'>
+            Text SVG</a> by Justin Frasier (<a href='http://codepen.io/cerealkiller1918'>@cerealkiller1918</a>) on <a href='http://codepen.io'>CodePen</a>.
+            </iframe>
+          </div>
+          <!--Text Animation-->
+          <div class='pin' id=''>
+            <div class='examples_title'>Text Animation</div>
+            <iframe height='268' scrolling='no' src='http://codepen.io/cerealkiller1918/embed/jqqvPO/?height=268&theme-id=0&default-tab=result' 
+            frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/cerealkiller1918/pen/jqqvPO/'>
+            Cool SVG Text</a> by Justin Frasier (<a href='http://codepen.io/cerealkiller1918'>@cerealkiller1918</a>) on <a href='http://codepen.io'>CodePen</a>.
+            </iframe>
+          </div>
