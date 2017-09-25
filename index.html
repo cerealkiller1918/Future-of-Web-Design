@@ -2,106 +2,709 @@
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<!-- Let browser know website is optimized for mobile -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
-    <meta name="author" content="Michelle Elder, Justin Frazier, Lacy Chism"></meta>	
-	<title>SVG: The Future of Web Design</title>
-
-	<!-- CSS -->
-    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection">
-	<link href="css/materialize.min.css" rel="stylesheet" media="screen,projection">
-	<!-- Import Google Icon Font -->
-	<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
-	
-    <!-- This tells IE treat site as if downloaded from a remote website to prevent the switch to locked-down mode -->
-	<!-- saved from url=(0014)about:internet -->
-    <!--[if  1t IE 9]>
-       <script type="text/javascript">
-	     document.createElement("header");
-		 document.createElement("footer");
-       </script>
-     <![endif]-->
+  
+    <!-- Let browser know website is optimized for mobile -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Help search engines locate our site by our names -->
+    <meta name="author" content="Michelle Elder, Justin Frasier, Lacy Chism">
+    <title>Introduction to SVG</title>
+    
+    <!-- Import Google Icon Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Abril+Fatface' rel='stylesheet'>
+    <link href='http://fonts.googleapis.com/css?family=Sanchez' rel='stylesheet'>
+  
+    <!-- Import materialize.css -->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection">
+    <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection">
+    <link type="text/css" rel="stylesheet" href="css/main.css"   media="screen,projection">
   </head>
   
-  <body>
-    <header class="page-header">
-      <div class="container">
-	    <div class="row">
-		  <div class="col 16 s12">
-		    <h1 class="title">Future of Web Design</h1>
-			  <h2 class="subtitle">This project is a single-page website dedicated to the impact <em>Scalable Vector Graphic  </em>will have on the future of web design.</h2>
-			    <p class="byline">by xentientLABS Interns: Michelle Elder, Justin Frazier, Lacy Chism</p>
-		  </div>
-		</div>
+<!-- Header -->
+<header>
+  <div class="container">
+    <h1 class="pageTopic center">Future of Web Design</h1>
+      <div class="row center">
+        <h5 class="pageSubtopic">This project is a single-page website dedicated to the impact of SVG in future web design.</h5>
       </div>
-    </header>
+  </div>
+</header>
   
-  <div class="content">
-    <ul class="collapsible popout" data-collapsible="accordion">
+<!-- Main Content -->
+<body>
+  <div class="container">
+    <div class="content">
+    
+      <!-- Collapsible elements coded from Materialize.css -->
+      <ul class ="collapsible popout" data-collapsible="accordion">
+        
+        <!-- Introduction -->
+        <li>
+          <div class="collapsible-header active">SVG: What is it?</div>
+          
+          <div class="collapsible-body">
+            <p><img src="images/svg/svg-logo.svg" alt=".svg logo" title="I am SVG" height="60" width="60" align="left"> Scalable Vector Graphics(SVG) is an XML-based vector image format that is open-source and supported by all modern browsers. SVG is developed and maintained by the <a href="https://www.w3.org/Graphics/SVG/" target="blank">W3C SVG Working Group</a>. The most recent version of the W3C Recommended full specification is <a href="https://www.w3.org/TR/SVG11/" target="blank">SVG 1.1 2nd edition</a>
+            </p>
+            <p>SVG is a platform for two-dimiesional graphics. It has two parts: an XML-based file format 
+            and a programming API for graphical applications. SVG is used in many business areas including web graphics, animation, user 
+            interfaces, graphics interchange, mobile applications and high-quality design. It is even popular with crafters when creating 
+            high-resolution designs that will be cut out for craft and art projects. SVG is open source and builds upon many other standards 
+            including XML, JPEG and PNG for image formats, DOM (Document Object Model) for scripting and interactivity, SML for animation and 
+            CSS for styling. Javascript can be used to manipulate both the objects and the DOM. SVG can now be read by most browsers, and since 
+            it is XML-based, it is written in text, which means SVG code can be read by both humans and machines.</p>
+          </div>
+        </li>
+      
+        <!-- SVG basics -->
+        <li>
+          <div class="collapsible-header">Why use SVG?</div>
+        
+          <div class="collapsible-body"><p>SVG is XML, making it easy to understand and allowing for manual editing using a text editor. SVG offers a way to do full resolution graphical elements, no matter what size screen, what zoom level, or what resolution your user's device has.<br><br>
+            Examples of some practical applications for SVG are Graphs, Road Maps, Complex UI Elements, Logos, and Simple
+            Games.</p> 
+            <h5>Resolution Independence:</h5>
+                <p>SVG looks crisp on any screen resolution and offers responsive images for responsive web design. SVG can also be used on any background color 
+                and the color of the image will be true. There is no loss of clarity when SVG images are scaled up or down. Also SVG images are vector graphics so 
+                there is no need to create separate images for high-density (retina) screens.</p>
+            <h5>Animation:</h5>
+                <p>SVG animations can be customized and controlled inside the SVG code easily. SVG animations can be reused and gzipped (compressed), making their 
+                file sizes smaller, especially when compared to GIFs. This improves page load times and performance. The file sizes are smaller because SVG code only 
+                lists the lines, curves and shapes required for the image.</p>
+            <h5>Accessibility:</h5>
+                <p>SVG graphics and animations are accessible to assistive technologies(AT), such as screen readers and speech recognition tools. SVG code can also 
+                be customized without resorting to hacking the source code. This is beneficial to people with visually-triggered vestibular disorders, motion on a 
+                webpage makes them feel ill.</p>
+            <h5>Ease of Use:</h5>
+                <p>SVG images can be created in a regular text editor such as Windows Notepad, although you would need an SVG viewer to see the resulting image.</p>
+          </div>
+        </li>
+        
+        <!-- SVG Examples -->
+        <li>
+          <div class="collapsible-header">SVG Examples</div>
+          
+          <div class="collapsible-body">
+          <!-- 1st Card-panel added -->
+            <div class="card-panel black">
+              <div class="row">  
+            
+              <!-- Circle Example -->
+                <div class="col s12 m6 13">
+                  <div class='pen' id='circle_ex'>
+                    <div class='examples_title'>Circle Example</div>
+                      <iframe height='250' scrolling='no' src=' http://codepen.io/cerealkiller1918/embed/VaeLme/?height=250&theme-id=0&default-tab=result' 
+                      frameborder='no' allowtransparency='true' allowfullscreen='false' style='width: 50%;'>See the Pen <a href='http://codepen.io/cerealkiller1918/pen/VaeLme/'>Circle SVG</a> by Justin Frasier 
+                      (<a href='http://codepen.io/cerealkiller1918'>@cerealkiller1918</a>) 
+                      on <a href='http://codepen.io'>CodePen</a>.
+                      </iframe>
+                  </div>
+                </div>
+              
+              <!-- Star Example -->
+                <div class="col s12 m6 13">
+                  <div class='pin' id='star_ex'>
+                    <div class='examples_title'>Star Example</div>
+                      <iframe height='250' scrolling='no' src='http://codepen.io/cerealkiller1918/embed/JXXBOR/?height=250&theme-id=0&default-tab=result' 
+                      frameborder='no' allowtransparency='true' allowfullscreen='false' style='width: 50%;'>See the Pen <a href='http://codepen.io/cerealkiller1918/pen/JXXBOR/'>SVG Star</a> 
+                      by Justin Frasier (<a href='http://codepen.io/cerealkiller1918'>@cerealkiller1918</a>) on <a href='http://codepen.io'>CodePen</a>.
+                      </iframe>
+                  </div>    
+                </div>
+              
+              </div>
+              <!-- Spinner Example -->
+              <div class="col s12 m6 13">
+                  <div class='pin' id='spinner_ex'>
+                    <div class='examples_title'>Spinner Example</div>
+                      <iframe height='250' scrolling='no' src='http://codepen.io/cerealkiller1918/embed/ONWyQb/?height=268&theme-id=0&default-tab=result' frameborder='no' 
+                      allowtransparency='true' allowfullscreen='false' style='width: 50%;'>See the Pen <a href='http://codepen.io/cerealkiller1918/pen/ONWyQb/'>fish</a> 
+                      by Justin Frasier (<a href='http://codepen.io/cerealkiller1918'>@cerealkiller1918</a>) on <a href='http://codepen.io'>CodePen</a>.
+                      </iframe>
+                  </div>    
+                </div>
+                
+              <!-- Text Example(new row, same card-panel) -->
+                <div class="col s12 m6 13">
+                  <div class='pin' id='text_ex'>
+                    <div class='examples_title'>Text Example</div>
+                      <iframe height='268' scrolling='no' src='http://codepen.io/cerealkiller1918/embed/oxxMRo/?height=250&theme-id=0&default-tab=result' 
+                        frameborder='no' allowtransparency='true' allowfullscreen='false' style='width: 50%;'>See the Pen <a
+                        href='http://codepen.io/cerealkiller1918/pen/oxxMRo/'>Text SVG</a> by Justin Frasier (<a href='
+                        http://codepen.io/cerealkiller1918'>@cerealkiller1918</a>) on <a href='http://codepen.io'>CodePen</a>.
+                      </iframe>
+                  </div>
+              </div>
+            </div>
+        
+            <!-- 2nd card-panel added-->
+            <div class="card-panel black">
+              <div class="row">
+            
+              <!--Text Glitch Animation-->
+                <div class="col s12 m6 13">
+                  <div class='pin' id=''>
+                    <div class='examples_title'>Text Animation Glitch</div>
+                      <iframe height='268' scrolling='no' src=
+                        http://codepen.io/cerealkiller1918/embed/jqqvPO/?height=268&theme-id=0&default-tab=result' 
+                        frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 110%;'See the Pen <a
+                        href='http://codepen.io/cerealkiller1918/pen/jqqvPO/'>Cool SVG Text</a> by Justin Frasier (<a href='
+                        http://codepen.io/cerealkiller1918'>@cerealkiller1918</a>) on <a href='http://codepen.io'>CodePen</a>.
+                      </iframe>
+                  </div>
+                </div>
+              
+              <!-- Outline Animation -->
+                <div class="col s12 m6 13">
+                  <div class='pin' id='text-outline'>
+                    <div class='examples_title'>Outline Text Animation</div>
+                      <iframe height='268 scrolling='no' src=
+                        http://codepen.io/cerealkiller1918/embed/LNZzKY/?height=268&theme-id=0&default-tab=result' 
+                        frameborder='no' allowtransparency='true' allowfullscreen='false' style='width: 50%;'>See the Pen <a
+                        href='http://codepen.io/cerealkiller1918/pen/LNZzKY/'>Outline SVG</a> by Justin Frasier (<a href='
+                        http://codepen.io/cerealkiller1918'>@cerealkiller1918</a>) on <a href='http://codepen.io'>CodePen</a>.
+                      </iframe>
+                  </div>
+                </div>
+              
+              </div>
+            
+              <!-- Graphic Animation(new row, same card-panel) -->
+                <div class="col s12 m6">
+                  <div class='pin' id='animation-outflow'>
+                    <div class='examples_title'>Graphic Animation</div>
+                      <iframe height='250' scrolling='no' src=
+                        http://codepen.io/cerealkiller1918/embed/QNEOdB/?height=268&theme-id=0&default-tab=result' 
+                        frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/cerealkiller1918/pen/QNEOdB/'>Cool SVG</a> by Justin Frasier (<a href='
+                        http://codepen.io/cerealkiller1918'>@cerealkiller1918</a>) on <a href='http://codepen.io'>CodePen</a>.
+                      </iframe>
+                  </div>  
+                </div>
+            </div>
+          </div>
+        </li>
+      
+        <!-- SVG Links -->
+        <li>
+          <div class="collapsible-header">SVG Tools, Tips, Tricks</div>
+        
+          <div class="collapsible-body">
+            <p><img src="images/svg/zorro2.svg" alt="svg" title="I am SVG" height="60" width="60" align="left"></a>
+            This tool converts your current PNGs to the ZorroSVG image format acheiving better
+            compression(almost always). It will work on ANY current browser! Give it a try! The SVG created by ZorroSVG can be
+            instantly downloaded and used like any other image!<br><br>
+
+            <a href="http://quasimondo.com/ZorroSVG/" target="blank">ZorroSVG</a><br>
+            <a href="www.w3schools.com/svg/" target="blank">w3c SVG Tutorial</a><br>
+            <a href="https://inkscape.org" target="blank">Inkscape</a><br>
+            <a href="http://www.adobe.com/products/illustrator.html" target="blank">Adobe Illustrator CC</a><br>
+            <a href="https://css-tricks.com/using-svg/">CSS-Tricks</a><br><br>
+            SVG has TONS of support. Use tutorials to get started and begin exploring the links on this page.</p>
+          </div>
+        </li>
+        
+        <!-- Accessibility -->
+        <li>
+          <div class="collapsible-header active">Tips for Accessibility</div>
+          
+          <div class="collapsible-body">
+            <p>The best way to make SVG accessible to assistive technologies like screen readers and speech recognition tools is to put it directly in your HTML.
+                <p style="text-align:left">
+                <b>Provide a title.</b> The SVG <code>&lt;title></code> element provides a human readable name for the SVG content.<br>
+                <b>Provide a description.</b> The SVG <code>&lt;desc></code> element provides more detailed information about the SVG than the title element allows.<br>
+                <b>Use Text.</b> The SVG <code>&lt;text></code> element makes text in a graphical content highly accessible. The content of the text element is rendered as plain text by the browser, 
+                so it's available to screen readers, and because it's SVG it can be resized porportionately with the graphical content for the benefit of anyone with less than 20/20 vision.<br>
+                <b>Make it focusable.</b> If the SVG contains content that is interactive, make sure it can take keyboard focus. The best way to do this is to use an element natively designed to take focus in the first place.<br>
+                <b>Give it a role.</b> This improves the browser odds considerably, with IE, Firefox, Chrome and Safari all exposing the role correctly.<br>
+                <b>Create an alternative.</b> SVG 2.0 should mostly eliminate the need for this, but an example is information presented in an SVG graph might also be provided in an HTML table, 
+                perhaps with a choice of views offered through a tabbed interface.</p><br>
+          </div>
+        </li>
+        
+        <!-- Reference Material -->
+                <li>
+          <div class="collapsible-header">Reference Material</div>
+        
+          <div class="collapsible-body">
+            <p>Below are links that refer to the technologies that were used in making this site. These can be used for further study.<br><br>
+
+            <a href="http://www.w3schools.com/svg/" target="blank">W3 Schools tutorial page on SVG.</a><br>
+            <a href="http://www.w3schools.com/html/" target="blank">W3 Schools tutorial page on HTML.</a><br>
+            <a href="http://www.w3schools.com/css/" target="blank">W3 Schools tutorial page on CSS.</a><br>
+            <a href="http://www.w3schools.com/js/" target="blank">W3 Schools tutorial page on JavaScript.</a><br>
+            <a href="http://www.sitepoint.com/tips-accessible-svg/" target="blank">Referance page we used for our Accessibility information.</a><br>
+            <a href="http://caniuse.com/#feat=svg" target="blank">Can I Use? compatibility chart for browsers and OS.</a><br><br></p>
+          </div>
+        </li>
+      
+      <!-- Future of Web Design -->
       <li>
-        <div class="collapsible-header active"><i class="material-icons">filter_drama</i>Responsive Web Design</div>
-        <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
-      </li>
-      <li>
-        <div class="collapsible-header"><i class="material-icons">place</i>Second</div>
-        <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
-      </li>
-      <li>
-        <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
-        <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+        <div class="collapsible-header">Summary and Quiz</div>
+        
+                 <div class="collapsible-body"><p>To Review: SVG will definitely impact the future of web design. The DOM node-based API of SVG is already more accessible than the client-side only canvas API and you can create SVG document-based images on the server-side, inspect SVG elements like any other HTML element, programatically manipulate shapes, styles, and positions with familiar technology like JavaScript (including libraries) and CSS, and attach event handlers to SVG nodes.<br>
+          The DOM API provides a further set of clear advantages for using SVG: No unnecessary HTTP requests and easy
+          interactive scripting.</p>
+            <p>Click the SVG image to reveal the correct answer!</p>
+            
+            <!-- Quiz Cards -->
+            <!-- Row 1, Card 1 -->
+            <div class="row">
+             <div class="col s12 m4 l3">
+              <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                              <img class="activator" src="images/svg/SVGLogoQuizCard.png">
+                            </div>
+                                <div class="card-content">
+                                 <span class="card-title activator grey-text text-darken-4">What does the acronym SVG stand for?<i class="material-icons right"></i></span>
+                                  <p></p>
+                                </div>
+                                    <div class="card-reveal">
+                                      <span class="card-title grey-text text-darken-4"><i class="material-icons center">close</i></span>
+                                       <span class="card-title grey-text text-darken-4"><p>SVG means Scalable Vector Graphics.</p></span>
+                                    </div>
+                          </div>
+                         </div>
+             <!-- Row 1, Card 2 -->
+             <div class="col s12 m4 l3">
+                <div class="card">
+                 <div class="card-image waves-effect waves-block waves-light">
+                              <img class="activator" src="images/svg/SVGLogoQuizCard.png">
+                             </div>
+                                <div class="card-content">
+                                 <span class="card-title activator grey-text text-darken-4">Who develops and maintains SVG?<i class="material-icons right"></i></span>
+                                  <p></p>
+                                </div>
+                                    <div class="card-reveal">
+                                      <span class="card-title grey-text text-darken-4"><i class="material-icons center">close</i></span>
+                                       <span class="card-title grey-text text-darken-4"><p>W3C SVG Working Group.</p></span>
+                                    </div>
+                            </div>
+                         </div>
+             
+              <!-- Row 1, Card 3 -->
+              <div class="col s12 m4 l3">
+              <div class="card">
+                 <div class="card-image waves-effect waves-block waves-light">
+                              <img class="activator" src="images/svg/SVGLogoQuizCard.png">
+                             </div>
+                                <div class="card-content">
+                                 <span class="card-title activator grey-text text-darken-4">What is the most recent version of SVG?<i class="material-icons right"></i></span>
+                                  <p></p>
+                                </div>
+                                    <div class="card-reveal">
+                                      <span class="card-title grey-text text-darken-4"><i class="material-icons center">close</i></span>
+                                       <span class="card-title grey-text text-darken-4"><p>SVG 1.1 2nd edition.</p></span>
+                                    </div>
+                            </div>
+              </div>
+              
+             <!-- Row 1, Card 4 -->
+             <div class="col s12 m4 l3">
+              <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                              <img class="activator" src="images/svg/SVGLogoQuizCard.png">
+                            </div>
+                                <div class="card-content">
+                                 <span class="card-title activator grey-text text-darken-4">Why are SVG animation files smaller?<i class="material-icons right"></i></span>
+                                  <p></p>
+                                </div>
+                                    <div class="card-reveal">
+                                      <span class="card-title grey-text text-darken-4"><i class="material-icons center">close</i></span>
+                                       <span class="card-title grey-text text-darken-4"><p>SVG only lists the lines, curves and shapes for the image.</p></span>
+                                    </div>
+                          </div>
+             </div>
+                        </div>
+                        
+            <!-- Row 2, Card 1 -->
+                      <div class="row">
+             <div class="col s12 m4 l3">
+              <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                              <img class="activator" src="images/svg/SVGLogoQuizCard.png">
+                            </div>
+                                <div class="card-content">
+                                 <span class="card-title activator grey-text text-darken-4">What type of disability benefits from SVG?<i class="material-icons right"></i></span>
+                                  <p></p>
+                                </div>
+                                    <div class="card-reveal">
+                                      <span class="card-title grey-text text-darken-4"><i class="material-icons center">close</i></span>
+                                       <span class="card-title grey-text text-darken-4"><p>Visually-triggered vestibular disorders.</p></span>
+                                    </div>
+                          </div>
+                         </div>
+             
+             <!-- Row 2, Card 2 -->
+             <div class="col s12 m4 l3">
+              <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                              <img class="activator" src="images/svg/SVGLogoQuizCard.png">
+                            </div>
+                                <div class="card-content">
+                                 <span class="card-title activator grey-text text-darken-4">What basic tool can be used to create SVG images?<i class="material-icons right"></i></span>
+                                  <p></p>
+                                </div>
+                                    <div class="card-reveal">
+                                      <span class="card-title grey-text text-darken-4"><i class="material-icons center">close</i></span>
+                                       <span class="card-title grey-text text-darken-4"><p>Regular text editor.</p></span>
+                                    </div>
+                          </div>
+                         </div>
+             
+             <!-- Row 2, Card 3 -->
+                         <div class="col s12 m4 l3">
+                          <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                              <img class="activator" src="images/svg/SVGLogoQuizCard.png">
+                            </div>
+                                <div class="card-content">
+                                 <span class="card-title activator grey-text text-darken-4">What tool converts PNGs to SVG format?<i class="material-icons right"></i></span>
+                                  <p></p>
+                                </div>
+                                    <div class="card-reveal">
+                                      <span class="card-title grey-text text-darken-4"><i class="material-icons center">close</i></span>
+                                       <span class="card-title grey-text text-darken-4"><p>ZorroSVG.</p></span>
+                                    </div>
+                           </div>
+              </div>
+              
+              <!-- Row 2, Card 4 -->
+              <div class="col s12 m4 l3">
+                           <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                              <img class="activator" src="images/svg/SVGLogoQuizCard.png">
+                            </div>
+                                <div class="card-content">
+                                 <span class="card-title activator grey-text text-darken-4">What is the best way to make SVG accessible to assistive technologies?<i class="material-icons right"></i></span>
+                                  <p></p>
+                                </div>
+                                    <div class="card-reveal">
+                                      <span class="card-title grey-text text-darken-4"><i class="material-icons center">close</i></span>
+                                       <span class="card-title grey-text text-darken-4"><p>Put the SVG code directly into your HTML code.</p></span>
+                                    </div>
+                          </div>
+              </div>
+                        </div>
+            
+                        <!-- Row 3, Card 1 -->            
+                        <div class="row">
+             <div class="col s12 m4 l3">
+              <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                              <img class="activator" src="images/svg/SVGLogoQuizCard.png">
+                            </div>
+                                <div class="card-content">
+                                 <span class="card-title activator grey-text text-darken-4">What does the SVG <code>&lt;title></code> element do?<i class="material-icons right"></i></span>
+                                  <p></p>
+                                </div>
+                                    <div class="card-reveal">
+                                      <span class="card-title grey-text text-darken-4"><i class="material-icons center">close</i></span>
+                                       <span class="card-title grey-text text-darken-4"><p>Provides a human readable name for the SVG content.</p></span>
+                                    </div>
+                          </div>
+                         </div>
+             
+              <!-- Row 3, Card 2 -->
+             <div class="col s12 m4 l3">
+              <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                              <img class="activator" src="images/svg/SVGLogoQuizCard.png">
+                            </div>
+                                <div class="card-content">
+                                 <span class="card-title activator grey-text text-darken-4">What does the SVG <code>&lt;desc></code> element do?<i class="material-icons right"></i></span>
+                                  <p></p>
+                                </div>
+                                    <div class="card-reveal">
+                                      <span class="card-title grey-text text-darken-4"><i class="material-icons center">close</i></span>
+                                       <span class="card-title grey-text text-darken-4"><p>Provides more detailed information about the SVG code.</p></span>
+                                    </div>
+                          </div>
+                         </div>
+             
+              <!-- Row 3, Card 3 -->
+             <div class="col s12 m4 l3">
+                          <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                              <img class="activator" src="images/svg/SVGLogoQuizCard.png">
+                            </div>
+                                <div class="card-content">
+                                 <span class="card-title activator grey-text text-darken-4">What does the SVG <code>&lt;text></code> element do?<i class="material-icons right"></i></span>
+                                  <p></p>
+                                </div>
+                                    <div class="card-reveal">
+                                      <span class="card-title grey-text text-darken-4"><i class="material-icons center">close</i></span>
+                                       <span class="card-title grey-text text-darken-4"><p>Makes text in a graphical content highly accessible.</p></span>
+                                    </div>
+                           </div>
+             </div>
+             
+              <!-- Row 3, Card 1 -->
+             <div class="col s12 m4 l3">
+                          <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                              <img class="activator" src="images/svg/SVGLogoQuizCard.png">
+                            </div>
+                                <div class="card-content">
+                                 <span class="card-title activator grey-text text-darken-4">What is SVG a platform for?<i class="material-icons right"></i></span>
+                                  <p></p>
+                                </div>
+                                    <div class="card-reveal">
+                                      <span class="card-title grey-text text-darken-4"><i class="material-icons center">close</i></span>
+                                       <span class="card-title grey-text text-darken-4"><p>Two-dimensional graphics.</p></span>
+                                    </div>
+                          </div>
+             </div>
+                        </div>
+             
+             <!-- Row 4, Card 1 -->
+                        <div class="row">
+             <div class="col s12 m4 l3">
+              <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                              <img class="activator" src="images/svg/SVGLogoQuizCard.png">
+                            </div>
+                                <div class="card-content">
+                                 <span class="card-title activator grey-text text-darken-4">What two parts make up an SVG file?<i class="material-icons right"></i></span>
+                                  <p></p>
+                                </div>
+                                    <div class="card-reveal">
+                                      <span class="card-title grey-text text-darken-4"><i class="material-icons center">close</i></span>
+                                       <span class="card-title grey-text text-darken-4"><p>XML-based file format and a programming API for graphical applications.</p></span>
+                                    </div>
+                          </div>
+                         </div>
+            
+                        <!-- Row 4, Card 2 -->            
+             <div class="col s12 m4 l3">
+              <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                              <img class="activator" src="images/svg/SVGLogoQuizCard.png">
+                            </div>
+                                <div class="card-content">
+                                 <span class="card-title activator grey-text text-darken-4">What can be used to manipulate the SVG objects and DOM?<i class="material-icons right"></i></span>
+                                  <p></p>
+                                </div>
+                                    <div class="card-reveal">
+                                      <span class="card-title grey-text text-darken-4"><i class="material-icons center">close</i></span>
+                                       <span class="card-title grey-text text-darken-4"><p>JavaScript.</p></span>
+                                    </div>
+                          </div>
+                         </div>
+             
+              <!-- Row 4, Card 3 -->
+                         <div class="col s12 m4 l3">
+                          <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                              <img class="activator" src="images/svg/SVGLogoQuizCard.png">
+                            </div>
+                                <div class="card-content">
+                                 <span class="card-title activator grey-text text-darken-4">What are examples of practical applications for SVG?<i class="material-icons right"></i></span>
+                                  <p></p>
+                                </div>
+                                    <div class="card-reveal">
+                                      <span class="card-title grey-text text-darken-4"><i class="material-icons center">close</i></span>
+                                       <span class="card-title grey-text text-darken-4"><p>Graphs, road maps, complex UI elements, logos and simple games.</p></span>
+                                    </div>
+                          </div>
+                         </div>
+             
+                         <!-- Row 4, Card 4 -->             
+                         <div class="col s12 m4 l3">
+                          <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                              <img class="activator" src="images/svg/SVGLogoQuizCard.png">
+                            </div>
+                                <div class="card-content">
+                                 <span class="card-title activator grey-text text-darken-4">What specific size screen must be used for SVG images?<i class="material-icons right"></i></span>
+                                  <p></p>
+                                </div>
+                                    <div class="card-reveal">
+                                      <span class="card-title grey-text text-darken-4"><i class="material-icons center">close</i></span>
+                                       <span class="card-title grey-text text-darken-4"><p>SVG offers resolution independence, it will be clear on any screen.</p></span>
+                                    </div>
+                          </div>
+             </div>
+                        </div>
+            
+                         <!-- Row 5, Card 1 -->            
+              <div class="row">
+             <div class="col s12 m4 l3">
+              <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                              <img class="activator" src="images/svg/SVGLogoQuizCard.png">
+                            </div>
+                                <div class="card-content">
+                                 <span class="card-title activator grey-text text-darken-4">What is the benefit of SVG being XML-based?<i class="material-icons right"></i></span>
+                                  <p></p>
+                                </div>
+                                    <div class="card-reveal">
+                                      <span class="card-title grey-text text-darken-4"><i class="material-icons center">close</i></span>
+                                       <span class="card-title grey-text text-darken-4"><p>The SVG code can be read by both humans and machines.</p></span>
+                                    </div>
+                          </div>
+                         </div>
+            
+                        <!-- Row 5, Card 2 -->                
+             <div class="col s12 m4 l3">
+              <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                              <img class="activator" src="images/svg/SVGLogoQuizCard.png">
+                            </div>
+                                <div class="card-content">
+                                 <span class="card-title activator grey-text text-darken-4">Do you have to create separate images for high density (retina) screens?<i class="material-icons right"></i></span>
+                                  <p></p>
+                                </div>
+                                    <div class="card-reveal">
+                                      <span class="card-title grey-text text-darken-4"><i class="material-icons center">close</i></span>
+                                       <span class="card-title grey-text text-darken-4"><p>No, SVG images are vector graphics, they already display on retina screens.</p></span>
+                                    </div>
+                          </div>
+                         </div>
+             
+                        <!-- Row 5, Card 3 -->    
+                         <div class="col s12 m4 l3">
+                      <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                              <img class="activator" src="images/svg/SVGLogoQuizCard.png">
+                            </div>
+                                <div class="card-content">
+                                 <span class="card-title activator grey-text text-darken-4">What does the DOM acronym mean?<i class="material-icons right"></i></span>
+                                  <p></p>
+                                </div>
+                                    <div class="card-reveal">
+                                      <span class="card-title grey-text text-darken-4"><i class="material-icons center">close</i></span>
+                                       <span class="card-title grey-text text-darken-4"><p>Document Object Model.</p></span>
+                                    </div>
+                          </div>
+                     </div>
+             
+                         <!-- Row 5, Card 4 -->                 
+                         <div class="col s12 m4 l3">
+                          <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                              <img class="activator" src="images/svg/SVGLogoQuizCard.png">
+                            </div>
+                                <div class="card-content">
+                                 <span class="card-title activator grey-text text-darken-4">Are SVG animations or GIF animations larger files?<i class="material-icons right"></i></span>
+                                  <p></p>
+                                </div>
+                                    <div class="card-reveal">
+                                      <span class="card-title grey-text text-darken-4"><i class="material-icons center">close</i></span>
+                                       <span class="card-title grey-text text-darken-4"><p>GIF animation files are larger.</p></span>
+                                    </div>
+                          </div>
+                         </div>
+                        </div>
+                     </div>
+        </div>
+    </div>
       </li>
     </ul>
   </div>
-  
-  <footer class="page-footer">
-    <div class="container">
-	  <h5 class="header">About Us</h5>
-	  
-	  <div class="row">
-	    <div class="s12 m6 13">
-		  <h5 class="center">xentientLABS</h5>
-		  <p class="address"><a href="http://xentientlabs.com target="_blank">xentientlabs.com</a><br>
-		  Bossier City, LA 71113<br>
-		  <a href="https://www.facebook.com/xentientlabs" target="_blank"><img class="responsive-img" src="images/logos/facebook.png" alt="Facebook clickable logo"></a>&nbsp;&nbsp;
-		  <a href="https://twitter.com/xentientlabs" target="_blank"><img class="responsive-img" src="images/logos/twitter.png" alt="Twitter clickable logo"></a>&nbsp;&nbsp;
-		  <h6><a href="mailto:info@xentientlabs.com">info@xentientlabs</a></h6></p>
-		</div>
-		  
-		<div class="s12 m6 13">
-		  <img src="images/michelle.jpg" alt="Michelle Elder" class="circle responsive-img">
-		  <h6 class="center">Michelle Elder</h6>
-		  <p class="address"><a href="http://www.weebly.com/ target="_blank">Weebly Portfolio</a><br>
-		  Shreveport, LA 71106<br>
-		  <a href="http://www.linkedin.com/" target="_blank"><img class="responsive-img" src="images/logo/linkedin.png" alt="LinkedIn clickable logo"></a>&nbsp;&nbsp;
-		  <h6><a href="mailto:melder318@gmail.com">melder318@gmail.com</a></h6></p>
-		</div>
-		  
-		<div class="s12 m6 13">
-		  <img src="images/justin.png" alt="Justin Frazier" class="circle responsive-img">
-		  <h6 class="center">Justin Frazier</h6>
-		  <p class="address"><a href="http://www.weebly.com/ target="_blank">Weebly Portfolio</a><br>
-		  Bossier City, LA 71111<br>
-		  <a href="http://www.linkedin.com/ "target="_blank"><img class="responsive-img" src="images/logo/linkedin.png" alt="LinkedIn clickable logo"></a>&nbsp;&nbsp;
-		  <h6><a href="Justin_frasier@me.com">Justin_frasier@me.com</a></h6></p>
-		</div>
-		  
-		<div class="s12 m6 13">
-		  <img src="images/lacy.JPG" alt="Lacy Chism" class="circle responsive-img">
-		  <h6 class="center">Lacy Chism</h6>
-		  <p class="address"><a href="http://www.weebly.com/" target="_blank">Weebly Portfolio</a><br>
-		  Bossier City, LA 71111<br>
-		  <a href="http://www.linkedin.com/" target="_blank"><img class="responsive-img" src="images/logo/linkedin.png" alt="LinkedIn clickable logo"></a>&nbsp;&nbsp;
-		  <h6><a href="mailto:Lacychismtp@gmail.com">Lacychismtp@gmail.com</a></h6></p>
-		</div>
+  <!-- About Us -->
+    <footer class="ourFooter">
+      <div class="center">
+      
+              <h5 class="aboutInterns">About Us</h5>
+                <p class="aboutInterns">We are currently interns at <a href="http://xentientlabs.com/">xentientLABS</a> in Bossier City, LA</p>
       </div>
-    </div>
-  </footer>
+      
+      
+        <div class="row">
+    
+        <!-- Michelle Elder Footer -->
+     <div class="container">
+          <div class="col s12 m12 l4">
+       <div class="card-panel purple">
+            <div class="card-panel blue">
+             <div class="container">
+              <div class="card">
+               <div class="card-image">
+                <img src="imagesResized/images/michelle1.jpg">
+                <span class="card-title">Michelle Elder</span>
+               </div>
+               <div class="card-content">
+                <p>Shreveport, LA</p>
+               </div>
+               <div class="card-action">
+                <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;
+          &#109;&#101;&#108;&#100;&#101;&#114;&#51;&#49;&#56;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">
+                &#109;&#101;&#108;&#100;&#101;&#114;&#51;&#49;&#56;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a>
+          <a href="https://www.linkedin.com/in/michelle-elder-8b8ab4116" target="_blank"><img src="images/logos/linkedin.png" alt="Michelle's LinkedIn" style="width:60px;height:60px;align="center";></a>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+      
+    <!-- Justin Frasier Footer -->
+         <div class="container">
+      <div class="col s12 m12 l4">
+       <div class="card-panel purple">
+        <div class="card-panel blue">
+       <div class="container">
+        <div class="card">
+         <div class="card-image">
+          <img src="imagesResized/images/justin3.jpg">
+        <span class="card-title">Justin Frasier</span>
+               </div>
+         <div class="card-content">
+                <p>Bossier City, LA</p>
+               </div>
+         <div class="card-action">
+          <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;
+        &#106;&#117;&#115;&#116;&#105;&#110;&#95;&#102;&#114;&#97;&#115;&#105;&#101;&#114;&#64;&#109;&#101;&#46;&#99;&#111;&#109;">
+        &#106;&#117;&#115;&#116;&#105;&#110;&#95;&#102;&#114;&#97;&#115;&#105;&#101;&#114;&#64;&#109;&#101;&#46;&#99;&#111;&#109;</a>
+        <a href="https://www.linkedin.com/in/justin-frasier-bb29b8a9" target="_blank"><img src="images/logos/linkedin.png" alt="Justin's LinkedIn" style="width:60px;height:60px;align="center";></a>
+         </div>
+              </div>
+             </div>
+            </div>
+       </div>
+          </div>
+         </div>
+    
+      <!-- Lacy Chism Footer -->
+       <div class="container">
+      <div class="col s12 m12 l4">
+       <div class="card-panel purple">
+        <div class="card-panel blue">
+       <div class="container">
+        <div class="card">
+         <div class="card-image">
+          <img src="imagesResized/images/lacy1.jpg">
+        <span class="card-title">Lacy Chism</span>
+         </div>
+         <div class="card-content">
+          <p>Bossier City, LA</p>
+         </div>
+         <div class="card-action">
+          <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;
+        &#108;&#97;&#99;&#121;&#99;&#104;&#105;&#115;&#109;&#116;&#112;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">
+        &#108;&#97;&#99;&#121;&#99;&#104;&#105;&#115;&#109;&#116;&#112;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a>
+        <a href="https://www.linkedin.com/in/lacy-chism-1b8a2a10a?trk=nav_responsive_tab_profile" target="_blank"><img src="images/logos/linkedin.png" alt="Lacy's LinkedIn" style="width:60px;height:60px;align="center";></a>
+         </div>
+              </div>
+             </div>
+      </div>
+           </div>
+          </div>
+         </div>
+        </div>
   
-  <!-- Scripts-->
-  <!-- Import jQuery before materialize.js -->
-  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script type="text/javascript" src="js/materialize.min.js"></script>
-  <script type="text/javascript">
-	
-  </body>
+    </footer>
+  
+    
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script type="text/javascript" src="js/main.js"></script>
+      
+    <!--Michelle Elder was responsible for the HTML framework, the finishing CSS, formatting all images and reformatting the code examples for final display, and also contributed 
+    to the text content. Justin Frasier was responsible for the primary CSS style sheet, converting SVG images into a dispalyable CodePen and was the administrator of the GitHub. 
+    Lacy Chism was responsible for the finishing HTML, quiz cards, formatting the footer and also contributed to the text content. -->
+      
+  
+  
+</body>
 </html>

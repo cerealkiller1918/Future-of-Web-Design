@@ -1,61 +1,43 @@
-@import url(materialize.min.css);
-@import url(http://fonts.googleapis.com/icon?family=Material+Icons);
-@import url(https://fonts.googleapis.com/css?family=Lora);
-@import url(https://fonts.googleapis.com/css?family=Oswald);
-@import url(https://fonts.googleapis.com/css?family=Montserrat);
-
-body{
-  background-color: #b385d9;
+/* ensures HTML5 elements work in all browsers */
+article, section, aside, hgroup, nav, header, footer, figure, figcaption {
+  display:block;
 }
 
-.page-header{
-  background-color: #953FDB;
-}
-.title{
-  font-family: 'Oswald', sans-serif;
-  text-align: center;
-  font-weight: 700;
-  padding: 0;
-  padding-top: 0.25em;
-  margin: 0;
+/* Background color */
+body {
+	background-color:#B385D9;
 }
 
-.subtitle{
-  padding: 0;
-  margin: 0;
-  padding-top: 0.75%;
-  font-family: 'Lora', serif;
-  font-weight: 400;
-  font-size: 1.5em;
-  
+/* sets all h1, h2 fonts */
+h1, h2 {
+  font-family:'Abril Fatface',cursive;
 }
 
-.byline{
-  margin: 0;
-  padding: 0;
-  padding-top: 1%;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 0.9em;
+/* sets all p fonts */
+p {
+	font-family:'Sanchez', serif
 }
 
+/* subtitle font */
+.pageSubTopic {
+	font-family:'Sanchez', serif;
+}
 
+/* formats collapsible-header */
 .collapsible-header{
-  font-family: 'Lora', serif;
-  font-weight: 400;
-  background-color: #953FDB;
-  text-align: center;
-  color: #fff;
+  font-family:'Abril Fatface',cursive;
+	font-size:200%;
+  background-color:#EAE4EF;
+  text-align:center;
+  color:#3F3F3F;
 }
 
-/* Inside the body of the colapsible content */
+/* formats collapsible-body */
 .collapsible-body{
-  background-color: #fff;
+	font-family:'Sanchez',serif;
+  background-color:#3F3F3F;
+	text-align:center;
+	color:#EAE4EF;
 }
 
-/* Makes sure the footer is at the bottom of the page */
-footer.page-footer{
-  position: absolute;
-  width: 100%;
-  bottom: 0;
-  background-color: #953FDB; 
-}
+
